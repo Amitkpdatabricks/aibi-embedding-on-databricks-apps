@@ -1,0 +1,6 @@
+{
+  "_README": "Group-to-region config. A group named <prefix><name> grants region <name> (hyphens become spaces, uppercased): region-middle-east -> MIDDLE EAST. Members of an admin group see all rows. 'groups' maps non-convention group names (lowercase) to a region. Env vars REGION_GROUP_PREFIX, ADMIN_GROUPS (comma list) and GROUP_REGION_MAP (group:REGION,...) override this file.",
+  "prefix": "region-",
+  "adminGroups": ["region-admin"],
+  "groups": {}
+}
